@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.background-bunga {
+  background-image: url('../LiveChatAja/biru3.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+}
+
+
+/* landing page */
+
+.landingpage-container {
+  position: relative;
+}
+
+.landingpage-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingpage-child1 {
+  margin-top: -100px;
+  margin-left: -200px;
+  left: 50%;
+  top: 100%;
+  width: 400px;
+  height: 250px;
+}
+
+.landingpage-font3 {
+  font-family:Lucida Calligraphy;
+  font-size:60px;
+  height: 5px;
+  margin: 0rem auto 0 auto;
+  width: 400px;
+  color:rgb(187, 180, 85);
+  margin-top: 225px;
+  text-align: center;
+}
+
+.landingpage-button-about {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 10px 30px; 
+  background-color: rgb(76, 125, 138);
+  opacity: 0.5;
+}
+
+.landingpage-button-start {
+  margin-top: 50px;
+  padding: 15px 40px; 
+  background-color: rgb(75, 100, 121);
+  opacity: 0.5;
+  border-radius: 40px;
+  font-size: 15pt;
+}
+
+.landingpage-controlfont2 {
+  font-size:50px;
+  height: 5px;
+  margin: 0rem auto 0 auto;
+  width: 400px;
+  color:whitesmoke;
+  margin-top:5px;
+}
+
+.createaccount-font2 {
+    font-family:Antonio;
+    font-size: 25px;
+    color: whitesmoke;
+    position: absolute;
+    width: 98vw;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+  }   
